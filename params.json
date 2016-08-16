@@ -1,0 +1,6 @@
+{
+  "name": "Eclipse install",
+  "tagline": "安装eclipse步骤存档",
+  "body": "# eclipse_install in WIN10\r\n安装eclipse步骤存档\r\n\r\nFirst,download and install jdk 1.7 version from The SUN official website.\r\n//for quick test you can press win+x and type instruction java -version to check if the jdk is installed successfully.\r\n\r\nThen, set some system variables for java. \r\nThis PC -> attribute -> advanced -> enviorment variables\r\n\r\n*name JAVA_HOME\r\n\r\n*value C:\\Program Files\\Java\\jdk1.7.0 /*this value is where you install the jdk*/\r\n\r\n*name CLASSPATH\r\n\r\n*value.;%JAVA_HOME%\\lib\\dt.jar;%JAVA_HOME%\\lib\\tools.jar;\r\n\r\nmodify system variables\r\n\r\n*name PATH\r\n\r\n*value %JAVA_HOME%\\bin;%JAVA_HOME%\\jre\\bin;\r\n\r\nFinally, activate your eclipse using your code.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
